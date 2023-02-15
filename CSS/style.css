@@ -1,0 +1,130 @@
+/* Legs Start */
+#top {
+    background-color: lightblue;
+}
+
+body {
+    background-color: bisque;
+}
+/* Legs End */
+
+/* Titles Start */
+#siteTitle {
+    padding-top: 1rem;
+    text-align: center;
+}
+/* lol */
+#siteSubTitle {
+    padding-bottom: 2rem;
+    text-align: center;
+}
+/* Titles End */
+
+/* Input Start */
+#addNameInputCol{
+    display: flex;
+    justify-content: center;
+}
+
+#addNameInput{
+    text-align: center;
+    width: 20rem;
+    border-radius: 5px;
+}
+
+#groupSliderCol{
+    display: flex;
+    justify-content: center;
+}
+
+#groupSizeDiv{
+    display: flex;
+}
+
+#groupSizeSliderDiv{
+    margin-top: 0.1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+#groupSizeSlider{
+    width: 12rem;
+}
+
+#btnRow{
+    padding-bottom: 1rem;
+    border-bottom: 0.1rem solid black;
+}
+
+#addNameBtnCol{
+    display: flex;
+    justify-content: center;
+}
+
+#addNameBtn{
+    width: 20rem;
+}
+
+#randNameBtnCol{
+    display: flex;
+    justify-content: center;
+}
+
+#randNameBtn{
+    width: 20rem;
+}
+/* Input End */
+
+/* Names Display Start */
+#listSpacingDiv{
+    padding-top: 1.25rem;
+    margin-left: 15%;
+    margin-right: 15%;
+    width: 70%;
+}
+
+#nameCounter{
+    text-align: center;
+}
+
+#listDisplayDiv{
+    height: 22rem;
+    overflow: scroll;
+}
+
+#listDisplayDiv::-webkit-scrollbar{
+    display: none;
+}
+
+.nameTagCol{
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.nameTag{
+    margin: 0rem;
+    padding-top: 0.5rem;
+}
+
+.removeBtnCol{
+    display: flex;
+    justify-content: center;
+}
+
+.listRow{
+    border-top: 0.1rem solid black;
+    border-bottom: 0.1rem solid black;
+}
+
+.listDiv{
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+/* Names Display End */
+
+/* Group Modal Start */
+.groupTxt {
+    font-size: 1.5rem;
+}
+/* Group Modal End */
